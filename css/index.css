@@ -41,7 +41,7 @@ body {
   display: inline-block;
   background-image: url("/content/page1/ImageShape1.png");
   width: 565px;
-  height: 565px;
+  height: 555px;
   right: 25px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -176,19 +176,45 @@ body {
 
 /* Contact Info */
 .contactInfo{
+  position: relative;
   background-color: #FFF5EE;
-  /* box-shadow: 5px 5px inset #DBCEC6; */
+  box-shadow: 0 0 5px 5px inset #DBCEC6;
   margin-top: 30px;
-  width: 400px;
-  height: 120px;
+  width: 530px;
+  height: 125px;
+  left: 17px;
 }
 .contactInfo h1{
+  color: #7F7770;
   font-size: 30px;
+  font-weight: 700;
 }
 .contactInfo .sosmed{
   text-align: left;
 }
+.contactInfo .sosmed .row{
+  margin: auto;
+  height: 30px;
+}
 .contactInfo .sosmed img{
   width: 30px;
+  margin-right: 13px;
+}
+
+.sosmed span{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  height: 10px;
+  top: 3px;
+  width: 230px;
+  height: 30px;
+}
+.sosmed span:hover{
+  background-image: url("/content/page1/Asset.png");
+  background-size: 100% 100%;
+  text-align: center;
 }
 
