@@ -1,47 +1,112 @@
-
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-.background{
-    position: absolute;
-    background-color: #FFF5EE;
-    width: 100%;
-    height: 100%;
+.background {
+  position: absolute;
+  background-color: #fff5ee;
+  width: 100%;
+  height: 100%;
 }
-.background .page1{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.background .page1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
-.background .page1 .shape{
-    display: inline-block;
-    width: fit-content;
-    height: 745px;
+.background .page1 .shape {
+  display: inline-block;
+  width: fit-content;
+  height: 745px;
 }
-.shape span{
-    position: relative;
-    display: inline-block;
-    background-image: url("/content/page1/Group1.png");
-    width: 800px;
-    height: 747px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.shape span {
+  position: relative;
+  display: inline-block;
+  background-image: url("/content/page1/Group1.png");
+  width: 950px;
+  height: 747px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.background .page1 .roundImg{
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-    width: 719.5px;
-    height: 745px;
+.background .page1 .roundImg {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  width: 550px;
+  height: 550px;
+  margin-top: 20px;
 }
-.roundImg span{
-    position: relative;
-    display: inline-block;
-    background-image: url("/content/page1/ImageShape1.png");
-    width: 630px;
-    height: 630px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-top: 45px;
+.roundImg span {
+  position: relative;
+  display: inline-block;
+  background-image: url("/content/page1/ImageShape1.png");
+  width: 565px;
+  height: 565px;
+  right: 25px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+/* Navbar */
+.navbar .nav {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.nav .about a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.nav .about span {
+  display: inline-block;
+  width: 200px;
+  height: fit-content;
+  text-align: center;
+}
+.nav .about span:hover {
+  background-image: url("/content/page1/Asset.png");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: fit-content;
+  background-size: 100% 100%;
+}
+.nav .Portofolio a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.nav .Portofolio span {
+  display: inline-block;
+  width: 250px;
+  height: fit-content;
+  text-align: center;
+}
+.nav .Portofolio span:hover {
+  background-image: url("/content/page1/Asset.png");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: fit-content;
+  background-size: 100% 100%;
+}
+.nav .Experience a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.nav .Experience span {
+  display: inline-block;
+  width: 250px;
+  height: fit-content;
+  text-align: center;
+}
+.nav .Experience span:hover {
+  background-image: url("/content/page1/Asset.png");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: fit-content;
+  background-size: 100% 100%;
+}
+
+/* about info */
+
