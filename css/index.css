@@ -1,0 +1,47 @@
+
+body{
+    margin: 0;
+}
+
+.background{
+    position: absolute;
+    background-color: #FFF5EE;
+    width: 100%;
+    height: 100%;
+}
+.background .page1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.background .page1 .shape{
+    display: inline-block;
+    width: fit-content;
+    height: 745px;
+}
+.shape span{
+    position: relative;
+    display: inline-block;
+    background-image: url("/content/page1/Group1.png");
+    width: 800px;
+    height: 747px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.background .page1 .roundImg{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 719.5px;
+    height: 745px;
+}
+.roundImg span{
+    position: relative;
+    display: inline-block;
+    background-image: url("/content/page1/ImageShape1.png");
+    width: 630px;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 45px;
+}
