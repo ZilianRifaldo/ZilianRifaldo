@@ -23,7 +23,7 @@ body {
   position: relative;
   display: inline-block;
   background-image: url("/content/page1/Group1.png");
-  width: 950px;
+  width: 930px;
   height: 747px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -40,8 +40,8 @@ body {
   position: relative;
   display: inline-block;
   background-image: url("/content/page1/ImageShape1.png");
-  width: 565px;
-  height: 555px;
+  width: 575px;
+  height: 565px;
   right: 25px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -161,47 +161,59 @@ body {
   height: 50px;
   border-radius: 20px;
 }
-.aboutInfo .resume span{
+.aboutInfo .resume span {
   position: relative;
   width: fit-content;
   top: 5px;
   left: 18px;
 }
-.resume a{
-    text-decoration: none ;
-    font-size: 25px;
-    font-weight: 600;
-    color: black;
+.resume a {
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  width: 180px;
+  height: 50px;
+  left: -18px;
+  top: -5px;
+  border-radius: 20px;
+  line-height: 47px;
+}
+.resume a:hover{
+  background-color: #7f7770;
+  color:aliceblue;
 }
 
 /* Contact Info */
-.contactInfo{
+.contactInfo {
   position: relative;
-  background-color: #FFF5EE;
-  box-shadow: 0 0 5px 5px inset #DBCEC6;
-  margin-top: 30px;
+  background-color: #fff5ee;
+  box-shadow: 0 0 5px 5px inset #dbcec6;
+  margin-top: 25px;
   width: 530px;
   height: 125px;
-  left: 17px;
+  left: 27px;
 }
-.contactInfo h1{
-  color: #7F7770;
+.contactInfo h1 {
+  color: #7f7770;
   font-size: 30px;
   font-weight: 700;
 }
-.contactInfo .sosmed{
+.contactInfo .sosmed {
   text-align: left;
 }
-.contactInfo .sosmed .row{
+.contactInfo .sosmed .row {
   margin: auto;
   height: 30px;
 }
-.contactInfo .sosmed img{
+.contactInfo .sosmed img {
   width: 30px;
   margin-right: 13px;
 }
-
-.sosmed span{
+.sosmed span {
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -212,9 +224,8 @@ body {
   width: 230px;
   height: 30px;
 }
-.sosmed span:hover{
+.sosmed span:hover {
   background-image: url("/content/page1/Asset.png");
   background-size: 100% 100%;
   text-align: center;
 }
-
